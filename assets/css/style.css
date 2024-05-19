@@ -462,12 +462,14 @@ h3 > a { color: inherit; }
 .category-item {
   width: 100%;
   position: relative;
+  border-radius: 25%;
 }
 
 .category-banner {
   background: var(--cultured);
   aspect-ratio: 2 / 2.35;
   overflow: hidden;
+  border-radius: 5%;
 }
 
 .category-banner img {
@@ -1262,3 +1264,4 @@ h3 > a { color: inherit; }
   .footer-bottom .container { justify-content: space-between; }
 
 }
+
